@@ -1,0 +1,13 @@
+>> Usage:
+  from topo_graph import topo_graph
+  p0 = topo_graph(nodes, links, 'outputplotname')
+  p0 = p0.draw_topo()
+  
+
+nodes is a dict, to specify various plot attributes for nodes
+links is a dict, to specify various plot attributes for edges
+outputplotname is name of the file for output graph.
+ Refer topo_test.py for some example attrs
+ topo_test.py is for reference purpose only
+
+
